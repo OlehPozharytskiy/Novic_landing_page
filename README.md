@@ -1,3 +1,14 @@
-# Novic_landing_page
+DOCUMENTATION
 
-mdfkdmfksdmlfmlksdmf;lmsdk;lmf;msd;km
+<!-- !It`s a custum sturting tree.  -->
+
+1 Use the TREE_TODO
+{
+"BUG",
+"HACK",
+"FIXME",
+"TODO",
+"NOTE",
+"[ ]",
+"[x]"
+}
