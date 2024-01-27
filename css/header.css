@@ -1,0 +1,13 @@
+.header_navigation {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+.button {
+    margin: 5px;
+}
+
+a {
+    text-decoration: none;
+}
