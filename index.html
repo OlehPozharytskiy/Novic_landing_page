@@ -27,22 +27,29 @@
         <title>Tittle of web</title>
     </head>
     <body>
-        <div class="container">
-            <header>
-                <div class="header">
-                    <div class="header_navigation">
-                        <ul class="header_menu">
-                            <li class="button"><a href="#">Home</a></li>
-                            <li class="button"><a href="#">About me</a></li>
-                            <li class="button"><a href="#">Skills</a></li>
-                            <li class="button"><a href="#">Portfolio</a></li>
-                            <li class="button"><a href="#">Contacts</a></li>
-                        </ul>
-                    </div>
-                </div>
-            </header>
-            <div class="inner"></div>
-            <footer class="footer"></footer>
+        <!-- Slider element -->
+        <div id="slider">
+            <!-- Slides -->
+            <div class="slide" id="slide1">
+                <img src="./assets/img/image1.jpg" alt="Image 1" />
+            </div>
+            <div class="slide" id="slide2">
+                <img src="./assets/img/image2.png" alt="Image 2" />
+            </div>
+            <div class="slide" id="slide3">
+                <img src="./assets/img/image3.jpg" alt="Image 3" />
+            </div>
+            <!-- Dots -->
+            <div id="dots">
+                <span class="dot" data-index="0"></span>
+                <span class="dot" data-index="1"></span>
+                <span class="dot" data-index="2"></span>
+            </div>
+            <!-- Next and previous buttons -->
+            <div id="next">&gt;</div>
+            <div id="prev">&lt;</div>
         </div>
+        <!-- JS code -->
+        <script src="slider.js"></script>
     </body>
 </html>
